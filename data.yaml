@@ -1,0 +1,14 @@
+extract:
+  - step:
+    action: extract.emit.EmitPaths
+    paths:
+      - "https://raw.githubusercontent.com/enigmadocs/parsers/master/download-auto-urls/download{number}.csv"
+    generators:
+      number:
+        type: integer
+        start: 1
+        delta: 1
+        count: 6
+
+  - step:
+    action: extract.source.http.DownloadFiles
