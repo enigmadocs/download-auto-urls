@@ -1,9 +1,9 @@
 ###
-# Parsefile for download-login
+# Parsefile for download-auto-urls
 # 2017-08-29
 ###
 
-name: download-login
+name: download-auto-urls
 description: "Downloads a series of sequentially-named files"
 maintainers:
   - Peter Henderson <name@domain.com>
