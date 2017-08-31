@@ -2,7 +2,7 @@ extract:
   - step:
     action: extract.emit.EmitPaths
     paths:
-      - "https://raw.githubusercontent.com/enigmadocs/parsers/master/download-auto-urls/download{number}.csv"
+      - "https://raw.githubusercontent.com/enigmadocs/download-auto-urls/master/download{number}.csv"
     generators:
       number:
         type: integer
